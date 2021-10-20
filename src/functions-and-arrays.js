@@ -8,20 +8,32 @@ function maxOfTwoNumbers(num1, num2) {
   }
 }
 
-/*
+
 
 // Iteration #2: Find longest word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
-function findLongestWord() {}
+function findLongestWord() {
+
+
+}
 
 
 
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
-function sumNumbers() {}
+function sumNumbers(array) {
+  let sum = 0
+  for(let i = 0; i < array.length; i++) {
+    sum += array[i]
+   }
+  return sum
+}
 
+const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
+let sumTotal = sumNumbers(numbers)
+console.log(sumTotal)
 
 
 // Iteration #3.1 Bonus:
@@ -116,7 +128,7 @@ const matrix = [
 function greatestProduct() {}
 
 
-*/
+
 
 // The following is required to make unit tests work.
 /* Environment setup. Do not modify the below code. */
